@@ -1988,7 +1988,7 @@ input, select, textarea {
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		border-radius: 0.25em;
-		border: solid 1px rgba(255, 255, 255, 0.15);
+		border: solid 2px rgba(255, 255, 255, 0.15);
 		background: rgba(255, 255, 255, 0.05);
 		margin: 0 0 2em 0;
 	}
@@ -3022,7 +3022,7 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
+				background: rgba(35, 3, 110, 0.9);
 				content: '';
 				display: block;
 				height: 100%;
