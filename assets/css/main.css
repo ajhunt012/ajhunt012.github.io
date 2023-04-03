@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: #088095;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -197,10 +197,10 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #422e75, #a82b7a);
+				background-image: -webkit-linear-gradient(to right, #422e75, #a82b7a);
+				background-image: -ms-linear-gradient(to right, #422e75, #a82b7a);
+				background-image: linear-gradient(to right, #422e75, #a82b7a);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -1915,7 +1915,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #39383b !important;
+			color: #646464 !important;
 		}
 
 			input[type="submit"].primary:after,
@@ -2316,7 +2316,7 @@ input, select, textarea {
 		background: rgba(255, 255, 255, 0.05);
 		border-radius: 0.25em;
 		border: none;
-		border: solid 1px rgba(255, 255, 255, 0.15);
+		border: solid 2px rgba(255, 252, 252, 0.15);
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -3022,7 +3022,7 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
+				background: rgba(40, 84, 105, 0.9);
 				content: '';
 				display: block;
 				height: 100%;
@@ -3236,11 +3236,11 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #eeeef4;
+			background-color: #020203;
 		}
 
 		.wrapper.style1 {
-			background-color: #353439;
+			background-color: #424243;
 		}
 
 		.wrapper.style1-alt {
@@ -3370,9 +3370,13 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #031f3b;
 		cursor: default;
 		padding: 1.75em 2em;
+		/* background-color: -moz-linear-gradient(to right, #5e42a6, #b74e91);
+		background-color: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
+		background-color: -ms-linear-gradient(to right, #5e42a6, #b74e91);
+		background-: linear-gradient(to right, #5e42a6, #b74e91); */
 	}
 
 		#header > .title {
@@ -3524,7 +3528,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #031f3b;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3857,7 +3861,7 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #8b4eb7;
 						}
 
 		}
