@@ -127,19 +127,11 @@
 				<!-- Three -->
 
 				<!--  ADDING IN THE CODE THAT WILL BE TESTED FOR CAPTCHA -->
-				<!-- HTML:
 
-html
-Copy code
-<form method="POST" action="/process-form">
-  <div class="g-recaptcha" data-sitekey="your_site_key"></div>
-  <button type="submit">Submit</button>
-</form>
 
-JavaScript:
+<!-- 
+javascript portion of the code.
 
-javascript
-Copy code
 const form = document.querySelector('form');
 form.addEventListener('submit', async (event) => {
   event.preventDefault();
@@ -172,7 +164,10 @@ form.addEventListener('submit', async (event) => {
 
 this will need to be added to and changed but this is the outline. .
  -->
-					<section id="three" class="wrapper style1 fade-up">
+ <form method="POST" action="/process-form">
+	<div class="g-recaptcha" data-sitekey="sitekey"></div>
+	<button type="submit">Submit</button>
+ 					<section id="three" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Getting in contact</h2>
 							<div class="split style1">
@@ -218,6 +213,8 @@ this will need to be added to and changed but this is the outline. .
 						</div>
 					</section>
 			</div>
+		</form>
+
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
