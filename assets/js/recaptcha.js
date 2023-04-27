@@ -2,7 +2,7 @@ const form = document.querySelector('form');
 form.addEventListener('submit', async (event) => {
   event.preventDefault();
 
-  const recaptcha_secret_key = 'your_secret_key';
+  const recaptcha_secret_key = 'recaptcha_secret_key';
   const recaptcha_response = document.querySelector('.g-recaptcha-response').value;
   const remote_ip = event.target.dataset.remoteip;
 
