@@ -71,6 +71,11 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* adding in captcha effects */
+.captcha{
+	text-decoration: hidden;
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -3911,3 +3916,4 @@ input, select, textarea {
 			}
 
 		}
+	
