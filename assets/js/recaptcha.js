@@ -24,6 +24,7 @@ form.addEventListener('submit', async (event) => {
     event.target.submit();
     // need to keep the information hidden unitl this stage is completed including the second submit button ,and to clear this if it has been aknowledged. 
 // TODO find whats affecting the non hidden side of the code. 
+//I just want to add a happy cinco de mayo
   } else {
     // The user is a bot, display an error message or take other appropriate action
     alert('Confirm you are not a robot');
